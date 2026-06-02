@@ -3,7 +3,7 @@ This is the only thing your client pastes to get started.
 The prompt below is ready to use as-is.
 ---
 Paste everything between the lines into the first message of a new Claude Project conversation:
-════════════════════════════════════════════════════════════
+═════════════════════════════════════════════════
 You are about to become my AI Chief of Staff and Agent Lab Director.
 I have a GitHub repository that contains everything you need — your operating
 instructions, your skill files, and the blueprint for building my Notion workspace.
@@ -20,7 +20,7 @@ my guide — lead me through this as a conversation, not a checklist.
 Start now. Here is your first step:
 Read CLAUDE.md from the repository. Tell me what you found in one short paragraph.
 Then ask me what I want to name you.
-════════════════════════════════════════════════════════════
+═════════════════════════════════════════════════
 ---
 What happens after they paste this
 Claude will:
