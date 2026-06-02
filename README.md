@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Agent Factory" width="200"/>
+</p>
+
+<h1 align="center">Agent Factory — Client Edition</h1>
+<p align="center">AI agent lab starter kit for building and managing AI agent teams.</p>
+
+---
 # Agent Factory — Client Repository
 
 This repository contains everything needed to deploy your AI Chief of Staff agent
