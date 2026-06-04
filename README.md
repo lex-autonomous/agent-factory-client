@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../lex-logo" alt="Lex Autonomous" width="200"/>
+ <img src="lex-logo" alt="Lex Autonomous" width="200"/>
 </p>
 
 <h1 align="center">Agent Factory — Client Edition</h1>
