@@ -442,15 +442,46 @@ Function: [One sentence — what this agent does]
 
 ## After Building All Pages
 
-Once all five pages are created, confirm the following with the user:
+Once all five pages are created:
 
-1. Read back the page titles and their Notion URLs
-2. Confirm the root page ID — this is what the Chief of Staff will reference going forward
-3. Ask: "Would you like me to save these page IDs to your Chief of Staff project
-   knowledge so I can find them automatically in future sessions?"
-4. If yes — present the page IDs in a clean block they can copy into project instructions
+1. Read back the page titles and confirm each one was created successfully
+2. Say exactly this — do not paraphrase, do not skip to something else:
 
-Then confirm: "Your Notion workspace is ready. Your agent lab is live."
+"Your Notion workspace is complete. Here is what was built:
+- AGENT FACTORY — [Their Name] (root folder)
+- LAB OS
+- Chief of Staff — System Prompt Template
+- Setup Guide
+- AGENTS folder
+- LIVE ROSTER
+
+One manual step on your end: open the LIVE ROSTER page in Notion and create
+a simple database with these columns: Agent Name, Role Title, Version, Platform,
+Agent Type, Activated. Takes about 60 seconds. Tell me when that's done."
+
+3. Wait for confirmation the database is created.
+
+4. Then say exactly this — do not skip this step under any circumstances:
+
+"Perfect. Your Notion workspace is fully ready. Your agent filing system
+is live and ready to receive agents.
+
+Are you setting up through GitHub or did your consultant send you files directly?"
+
+5. Wait for their answer. Then route accordingly:
+
+IF GITHUB TRACK — they say "GitHub" or "forked repo":
+Say: "Great. Go to your Claude Project Settings. Under Files, click +,
+select GitHub, and connect your forked repo. Tell me when that's done
+and I will walk you through adding the pointer to your Instructions."
+Then continue with the GitHub pointer setup as described in the
+activation prompt sequence — Step 5 and 6 onward.
+
+IF DIRECT FILE TRACK — they say "files" or "you sent me files":
+Say: "Perfect. Your setup is complete. Your files are already uploaded
+to your project knowledge and your Notion workspace is live.
+I'm your AI Chief of Staff and I'm ready to build your first agent.
+What role do you need filled first?"
 
 ---
 
@@ -459,6 +490,6 @@ Then confirm: "Your Notion workspace is ready. Your agent lab is live."
 - Always create the root page first — child pages need its ID as parent
 - Confirm each page creation before moving to the next
 - If Notion throws an error on any page, report it clearly and offer to retry
-- Do not skip the LIVE ROSTER note about the database — the user needs to create
-  that manually and should know before they expect it to be there
+- Do not skip the LIVE ROSTER database note — user creates it manually
+- Always ask which track before routing to GitHub or completing setup
 - The workspace belongs to the user — you are building it in their Notion, not yours
